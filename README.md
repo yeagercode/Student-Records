@@ -1,19 +1,20 @@
 # Student-Records
 This is the program regarding Student Records.
 
-#sourcecode
-#include <stdio.h>
-#include <stdlib.h>
-struct student 
-{
+
+    #include <stdio.h>
+    #include <stdlib.h>
+    struct student 
+    {
     char first_name[50], last_name[50], sec[10];
     int roll;
     float marks;
 	
-} a[5];
+    } 
+    a[5];
 
-int main()
-{
+    int main()
+    {
 	//a-z = 97-122
 	//A-Z = 65-90
 	
@@ -39,7 +40,7 @@ int main()
         scanf("%f", &a[i].marks);
 		
 		printf("\n");
-    }
+        }
 		printf("\n");
 		
 Output
